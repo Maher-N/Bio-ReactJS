@@ -1,0 +1,105 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2c2c2c;
+}
+
+* {
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.container {
+  clear: both;
+  overflow: auto;
+  background-color: #141515;
+}
+
+nav {
+  float: right;
+}
+
+.logo img {
+  float: left;
+  padding: 15px;
+  width: 25px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: raleway;
+  color: #fff;
+}
+
+ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 300px;
+  border-radius: 50%;
+}
+.header-info{
+    background-color: #2c2c2c;
+    color:#fff;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 35px 150px;
+}
+
+.header-pio{
+    width: 60%;
+    border-left: 5px solid orange;
+    padding-left: 10px;
+    color: #aeaeae;
+}
+
+.training{
+    display: flex;
+    flex-direction: row;
+    column-gap: 74px;
+}
+.training > img {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.training-p > p {
+    
+    padding-right: 100px;
+    font-size: 14px;
+    color:#aeaeae;
+    line-height: 22px;
+}
+.contacts{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts > img{
+    width: 40%;
+}
+#contact-info > p{
+    color:#fff;
+}
+
+ a{
+    color:orange;
+    text-decoration: none;
+}
+#contact-info > h1 {
+    color:orange;
+    font-size: 35px;
+}
+
+h1 {
+    color:orange;
+    font-size: 35px;
+}
